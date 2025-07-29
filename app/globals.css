@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: #ffffff;
+  background: #000000;
+  font-family: 'Courier New', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Ensure forms work without JS */
+form {
+  display: flex;
+  width: 100%;
+}
+
+input[type="text"], textarea {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 0;
+  font-family: inherit;
+}
+
+input[type="text"]:focus, textarea:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+button {
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+button:disabled {
+  background: #333333;
+  color: #666666;
+  cursor: not-allowed;
+  border-color: #333333;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* Form improvements */
+textarea {
+  transition: border-color 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Markdown styling */
+.markdown-content h1, .markdown-content h2, .markdown-content h3,
+.markdown-content h4, .markdown-content h5, .markdown-content h6 {
+  margin: 1em 0 0.5em 0;
+  font-weight: bold;
+}
+
+.markdown-content h1 { font-size: 1.5em; }
+.markdown-content h2 { font-size: 1.3em; }
+.markdown-content h3 { font-size: 1.2em; }
+
+.markdown-content p {
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+.markdown-content strong {
+  font-weight: bold;
+  color: #fff;
+}
+
+.markdown-content em {
+  font-style: italic;
+}
+
+.markdown-content code {
+  background: #111;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.markdown-content pre {
+  background: #111;
+  padding: 1em;
+  border-radius: 0.3em;
+  overflow-x: auto;
+  margin: 1em 0;
+}
+
+.markdown-content pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.markdown-content blockquote {
+  border-left: 2px solid #666;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #aaa;
+}
+
+.markdown-content ul, .markdown-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.markdown-content li {
+  margin: 0.3em 0;
+}
+
+.markdown-content a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.markdown-content a:hover {
+  text-decoration: none;
+}
