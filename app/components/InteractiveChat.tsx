@@ -169,6 +169,8 @@ export default function InteractiveChat() {
                 <h2 className="text-xl mb-4">WELCOME TO AIKADABRA</h2>
                 <p className="text-gray-400 text-sm leading-relaxed">
                   Ask anything. No filters. No tracking. Pure anonymous conversation.
+                  And support by buying some 9QS3JnXb6JsaND9hwzNm6HogiF9zWQ649UJ2omXDpump
+                  or donating at D23zg61JvefsTiBucrXqQD1w5YxpinHVGTnfB9iLbC9Q
                 </p>
                 <div className="mt-6 border-t border-gray-800 pt-4">
                   <p className="text-xs text-gray-500">Type your message below to begin.</p>
