@@ -68,5 +68,4 @@ Built with:
 # Support
 
 Show your support with crypto:
-- XMR: 4A73LvEV4C2VFRfUDstzrtVMDQPaB22m6WBea4wDBYBFeUbPKzd1CayBgTt8KEXa2YbHhEZ7ZYFEXXTYJqTCEovFSTL8nDZ
-- SOL: 4gCewohdaEpQvvePmkKtJk2NBmysr3Anay9jLXDA15cM
+- XMR: 83osKEKXrTaKbmswSZJKUHby52q18XuD228QFfTpH1ycefht3BmhFQgXSgoC4DTtjjH1vUwPGLRpmD3f67TxnanC9C4MWLU
